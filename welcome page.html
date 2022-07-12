@@ -1,0 +1,46 @@
+<!--Hunter Roach-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uat Space program</title>
+    <!--centers all added text and pictures, also makes title more fancy :D-->
+    <link rel="stylesheet" href="customization.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <img src="UATspaceLogo.jpg" alt="logo" style="text-align: center;"/>
+    <h1>UAT Space Program</h1>
+    <!--audio is gonna play from a hidden state-->
+    <!--Im not sure why but autoplay doesnt do its job :C-->
+    <audio controls autoplay>
+        <source src='us-lab-background.mp3' type="audio/mp3">
+        <source src="computer_sounds.mp4" type="audio/mp3">
+        audio not supported at all :C
+    </audio>
+    <!--table-->
+    <h2>Raw Data</h2>
+    <div>
+        <table>
+            <tr>
+                <th>cell1</th><!--label-->
+                <th id="cell1">ex</th><!--raw data-->
+            </tr>
+            <tr>
+                <th>cell2</th>
+                <th id="cell2">ex</th>
+            </tr>
+            <tr>
+                <th>cell3</th>
+                <th id="cell3">ex</th>
+            </tr>
+        </table>
+    </div>
+    <!--cool buttons-->
+    <br>
+    <button onclick="begin()" id="go">Start</button>
+    <button onclick="stop()" id="stop"disabled>Stop</button>
+</body>
+</html>
